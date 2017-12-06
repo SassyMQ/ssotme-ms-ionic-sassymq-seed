@@ -97,6 +97,11 @@
     <Content Include="**\**" Exclude="**\platforms\**;**\bin\**;**\bld\**;**\node_modules\**;**\simulation\**;.gitignore;ionic2-ts-sidemenu1.*" />
   </ItemGroup>
   <ItemGroup>
+    <Content Remove="src\tempFileSet_0246364d-7f98-42e0-9bb8-26b37aea96b6.xml" />
+    <Content Remove="src\tempFileSet_1a70a1af-da03-4a2c-8660-0876c9a570cd.xml" />
+    <Content Remove="src\tempFileSet_f2bbe2ec-2f98-4122-98e9-7a67bbac7b42.xml" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Update="config.xml">
       <SubType>Designer</SubType>
     </Content>
