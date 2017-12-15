@@ -1,12 +1,12 @@
 {
   "SSoTmeProjectId": "109a3ca6-4391-4d84-9edc-68585ce5b4eb",
-  "Name": "ssotme-ms-ionic-seed",
+  "Name": "MSIonicSeed",
   "RootPath": "C:\\Development\\ssotme-ms-ionic-seed",
   "ProjectSettings": [
     {
-      "ProjectSettingId": "5143ea9a-6d39-4086-a96e-814a3e61120b",
+      "ProjectSettingId": "e4ea0345-a4d2-4135-b13e-23b6cd0d164c",
       "Name": "project-name",
-      "Value": "ssotme-ms-ionic-seed"
+      "Value": "MSIonicSeed"
     }
   ],
   "ProjectTranspilers": [
@@ -25,7 +25,7 @@
         "LowerHyphenName": "text-to-word-list-xml",
         "InputFileTypeId": "6c58b9cb-e109-4273-a52b-c8a68f4009da",
         "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "UsageCount": 773,
+        "UsageCount": 1021,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -62,7 +62,7 @@
         "ReadMeMD": "Converts a wordlist xml created by the [codee42/text-to-wordlist-xml] tool into a Renames.Csv file which can then be turned into an Odxml file.",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
-        "UsageCount": 598,
+        "UsageCount": 754,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -101,7 +101,7 @@
         "InputDescriptionMD": "The input CSV can have\r\nFromName (object | object.property)\r\nToName (object | property)\r\nParentName\r\nInclude (true | false)\r\nDescription\r\nDataType\r\nDataLength\r\n",
         "InputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
         "OutputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
-        "UsageCount": 671,
+        "UsageCount": 819,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -142,7 +142,7 @@
         "ExampleMD": "ssotme -install xml-xslt-transform -i MyData.xml -i CreateDocs.xslt",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "952e47eb-3448-4627-8dc4-93dab494c957",
-        "UsageCount": 4561,
+        "UsageCount": 4944,
         "Category": "type-conversion",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -182,7 +182,7 @@
         "ReadMeMD": "Adds any missing tables and relationships in a SQL Server database based on an ODXML Schema description.",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "1136a8fc-7ced-47c2-b08d-1ff447a82b01",
-        "UsageCount": 747,
+        "UsageCount": 903,
         "Category": "sql-server",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -221,7 +221,7 @@
         "ReadMeMD": "Creates a script which will check that every field in a dat model exists with SQL Server.",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "1136a8fc-7ced-47c2-b08d-1ff447a82b01",
-        "UsageCount": 605,
+        "UsageCount": 761,
         "Category": "sql-server",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -260,7 +260,7 @@
         "ReadMeMD": "param name=\"include-list-prefix\" select=\"true\"\r\nWill include the fieldname of the referenced object before lists so that if a child object has multiple references to an object, the collections on the parent will be distinguished by the name of the child properties.\r\n\r\nparam name=include-sdm-expand=false\r\nparam name=include-load-methods=true\r\n\r\nparam name=\"include-inheritance\" select=\"true\"\r\nIf a relationship exists on the primary key fo the object, it will be infered to \"descend\" from the refrenced object.\r\n\r\nparam name=\"pluralize-json-references\" select=\"true\"\r\nDetermines if the \"original name\" should be pluraized in the Json serialization header.\r\n\r\nparam name=sdm--namespace = 'using KP.ODXML7.SqlDataManager.{project-name}.SqlDataManagement;'\r\n\r\n\r\nparam name=extensions-namespace = 'CoreLibrary.Extensions'\r\n\r\nparam name=serialize-to-original-names=\"'false\"  \r\nInidicates if the json formatting should use original names\r\n\r\nparam name=\"csproj-filename\" = ''\r\nparam name=\"output-csproj-filename\" = ''\r\nparam name=\"relative-path\" = ''\r\n",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 1152,
+        "UsageCount": 1374,
         "Category": "dot-net",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -293,7 +293,7 @@
         "Description": "Converts an AppStates Csv file into an AppStates Xml file with states nested using ParentState as the key",
         "CreatedOn": "2017-11-24T20:07:18.92",
         "IsActive": true,
-        "CurrentRoutingKey": "amq.gen-FCs-uOX8clAg4c3GnW7MBg",
+        "CurrentRoutingKey": "amq.gen-E56VNN1tbGrLoBPygGlJdw",
         "LowerName": "appstatescsvtoappstatesxml",
         "UpperName": "APPSTATESCSVTOAPPSTATESXML",
         "LowerHyphenName": "app-states-csv-to-app-states-xml",
@@ -303,7 +303,7 @@
         "ExampleMD": "ssotme -install app-states-csv-to-app-states-xml -i AppStates.csv",
         "InputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
         "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "UsageCount": 273,
+        "UsageCount": 348,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -342,7 +342,7 @@
         "ExampleMD": "ssotme -install app-states-xml-to-app-states-docs -i AppStates.xml",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
-        "UsageCount": 282,
+        "UsageCount": 342,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -379,7 +379,7 @@
         "LowerHyphenName": "ionic-states-from-app-states-xml",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "f8391567-b3d9-4e34-8a45-3d6bd9da4b9b",
-        "UsageCount": 274,
+        "UsageCount": 337,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -419,7 +419,7 @@
         "OutputDescriptionMD": "Otuputs a CSharp library which can read/write/udpate the objects described by the input odxml file",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 508,
+        "UsageCount": 637,
         "Category": "dot-net",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -459,7 +459,7 @@
         "InputDescriptionMD": "param name=\"project-name\" select=\"'REST Collection'\"  \r\nparam name=\"api-uri\" select=\"'http://localhost:64110/api/'\"\r\n",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "e827499f-f215-4b35-8dae-6bd423a75e4c",
-        "UsageCount": 327,
+        "UsageCount": 456,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -496,7 +496,7 @@
         "LowerHyphenName": "odxml-to-m-v-c-r-e-s-t-a-p-i",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 289,
+        "UsageCount": 417,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -534,7 +534,7 @@
         "ReadMeMD": "Examines the schema defined by an Odxml file and creates an interactive DataModel explorer for exploring the structure of the data model defined. \r\n\r\nCreates both a single page version of the docs, as well as a Node.JS website that can be started on demand to explore the data model more interactively.",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
-        "UsageCount": 1022,
+        "UsageCount": 1226,
         "Category": "documentation",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -585,7 +585,7 @@
         "ExampleMD": "ssotme -createDocs",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "UsageCount": 473,
+        "UsageCount": 552,
         "Category": "ssotme",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -624,7 +624,7 @@
         "ReadMeMD": "This system tool turns a detailed SPXml file into detailed Html Documentation about how the SSoT.me project is organized. Specifically, how does the tech \"flow\" thorugh the project. ",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
-        "UsageCount": 423,
+        "UsageCount": 505,
         "Category": "ssotme",
         "TranspileRequests": [],
         "TranspilerInstances": [],
