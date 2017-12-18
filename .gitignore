@@ -1,6 +1,7 @@
 .ssotme/*
 **/node_modules/**
-/.vs/**
+/**/.vs/**
 /packages/**
 **/obj/**
 **/bin/**
+
