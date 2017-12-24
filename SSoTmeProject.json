@@ -1,12 +1,12 @@
 {
   "SSoTmeProjectId": "109a3ca6-4391-4d84-9edc-68585ce5b4eb",
-  "Name": "MSIonicSeed",
-  "RootPath": "C:\\Development\\ssotme-ms-ionic-seed",
+  "Name": "MSSassyMQSeed",
+  "RootPath": "C:\\Development\\ssotme-ms-ionic-sassymq-seed",
   "ProjectSettings": [
     {
-      "ProjectSettingId": "e4ea0345-a4d2-4135-b13e-23b6cd0d164c",
+      "ProjectSettingId": "80dc8cc7-cce6-48ba-b993-588f0e6da170",
       "Name": "project-name",
-      "Value": "MSIonicSeed"
+      "Value": "MSSassyMQSeed"
     }
   ],
   "ProjectTranspilers": [
@@ -25,7 +25,7 @@
         "LowerHyphenName": "text-to-word-list-xml",
         "InputFileTypeId": "6c58b9cb-e109-4273-a52b-c8a68f4009da",
         "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "UsageCount": 1032,
+        "UsageCount": 1125,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -62,7 +62,7 @@
         "ReadMeMD": "Converts a wordlist xml created by the [codee42/text-to-wordlist-xml] tool into a Renames.Csv file which can then be turned into an Odxml file.",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
-        "UsageCount": 764,
+        "UsageCount": 856,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -101,7 +101,7 @@
         "InputDescriptionMD": "The input CSV can have\r\nFromName (object | object.property)\r\nToName (object | property)\r\nParentName\r\nInclude (true | false)\r\nDescription\r\nDataType\r\nDataLength\r\n",
         "InputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
         "OutputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
-        "UsageCount": 829,
+        "UsageCount": 921,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -142,7 +142,7 @@
         "ExampleMD": "ssotme -install xml-xslt-transform -i MyData.xml -i CreateDocs.xslt",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "952e47eb-3448-4627-8dc4-93dab494c957",
-        "UsageCount": 5035,
+        "UsageCount": 5360,
         "Category": "type-conversion",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -182,7 +182,7 @@
         "ReadMeMD": "Adds any missing tables and relationships in a SQL Server database based on an ODXML Schema description.",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "1136a8fc-7ced-47c2-b08d-1ff447a82b01",
-        "UsageCount": 917,
+        "UsageCount": 1036,
         "Category": "sql-server",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -221,7 +221,7 @@
         "ReadMeMD": "param name=\"include-list-prefix\" select=\"true\"\r\nWill include the fieldname of the referenced object before lists so that if a child object has multiple references to an object, the collections on the parent will be distinguished by the name of the child properties.\r\n\r\nparam name=include-sdm-expand=false\r\nparam name=include-load-methods=true\r\n\r\nparam name=\"include-inheritance\" select=\"true\"\r\nIf a relationship exists on the primary key fo the object, it will be infered to \"descend\" from the refrenced object.\r\n\r\nparam name=\"pluralize-json-references\" select=\"true\"\r\nDetermines if the \"original name\" should be pluraized in the Json serialization header.\r\n\r\nparam name=sdm--namespace = 'using KP.ODXML7.SqlDataManager.{project-name}.SqlDataManagement;'\r\n\r\n\r\nparam name=extensions-namespace = 'CoreLibrary.Extensions'\r\n\r\nparam name=serialize-to-original-names=\"'false\"  \r\nInidicates if the json formatting should use original names\r\n\r\nparam name=\"csproj-filename\" = ''\r\nparam name=\"output-csproj-filename\" = ''\r\nparam name=\"relative-path\" = ''\r\n",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 1388,
+        "UsageCount": 1519,
         "Category": "dot-net",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -264,7 +264,7 @@
         "ExampleMD": "ssotme -install app-states-csv-to-app-states-xml -i AppStates.csv",
         "InputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
         "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "UsageCount": 358,
+        "UsageCount": 461,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -303,7 +303,7 @@
         "ExampleMD": "ssotme -install app-states-xml-to-app-states-docs -i AppStates.xml",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
-        "UsageCount": 352,
+        "UsageCount": 455,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -340,7 +340,7 @@
         "LowerHyphenName": "ionic-states-from-app-states-xml",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "f8391567-b3d9-4e34-8a45-3d6bd9da4b9b",
-        "UsageCount": 408,
+        "UsageCount": 589,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -380,7 +380,7 @@
         "OutputDescriptionMD": "Otuputs a CSharp library which can read/write/udpate the objects described by the input odxml file",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 645,
+        "UsageCount": 759,
         "Category": "dot-net",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -420,7 +420,7 @@
         "InputDescriptionMD": "param name=\"project-name\" select=\"'REST Collection'\"  \r\nparam name=\"api-uri\" select=\"'http://localhost:64110/api/'\"\r\n",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "e827499f-f215-4b35-8dae-6bd423a75e4c",
-        "UsageCount": 464,
+        "UsageCount": 564,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -457,7 +457,7 @@
         "LowerHyphenName": "odxml-to-m-v-c-r-e-s-t-a-p-i",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 425,
+        "UsageCount": 530,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -495,7 +495,7 @@
         "ReadMeMD": "Examines the schema defined by an Odxml file and creates an interactive DataModel explorer for exploring the structure of the data model defined. \r\n\r\nCreates both a single page version of the docs, as well as a Node.JS website that can be started on demand to explore the data model more interactively.",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
-        "UsageCount": 1234,
+        "UsageCount": 1344,
         "Category": "documentation",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -518,6 +518,199 @@
       "Name": "OdxmlToNodeJSDocs",
       "RelativePath": "/Docs",
       "CommandLine": "odxml42/odxml-to-nodejs-docs -i ..\\ODXML\\DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "fa2179e5-d902-47e6-bab0-3d8c137b4c66",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToAngularRestAPI",
+        "DisplayName": "Odxml To Angular Rest A P I",
+        "Description": "Creates an Angular 2+ (TypeScript) service with basic crud operations from the provided ODXML file",
+        "CreatedOn": "2017-12-18T06:19:36.463",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-gYmBv0rMPN2fYILP4FzLww",
+        "LowerName": "odxmltoangularrestapi",
+        "UpperName": "ODXMLTOANGULARRESTAPI",
+        "LowerHyphenName": "odxml-to-angular-rest-a-p-i",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "f8391567-b3d9-4e34-8a45-3d6bd9da4b9b",
+        "UsageCount": 65,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "e773315d-4c5f-4659-b0d4-9c24b5fbe5bb",
+            "TranspilerId": "fa2179e5-d902-47e6-bab0-3d8c137b4c66",
+            "Name": "v1",
+            "CreatedOn": "2017-12-18T06:19:41.403",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "593a6196-803c-49d6-9732-b2ef074bdeb8",
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/ionic2-ts-sidemenu1/src/providers",
+      "CommandLine": "odxml42/odxml-to-angular-rest-api  -i ..\\..\\..\\ODXML\\DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "cbd4068e-573f-48f4-bce8-e1fe6383ce1d",
+        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
+        "Name": "XlsxToCSVs",
+        "DisplayName": "Xlsx To C S Vs",
+        "Description": "Converts an Xllsx file into one (or more) CSV files for each tab.",
+        "CreatedOn": "2017-10-06T16:52:02.81",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-touzimry1eoVw-xvGKxwrA",
+        "LowerName": "xlsxtocsvs",
+        "UpperName": "XLSXTOCSVS",
+        "LowerHyphenName": "xlsx-to-c-s-vs",
+        "ReadMeMD": "One CSV file is created for each \"tab\" in the spreadsheet.",
+        "InputFileTypeId": "39d3bcd1-d89f-4361-a3f7-7d5c295132cd",
+        "OutputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
+        "UsageCount": 183,
+        "Category": "type-conversion",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "f313995e-9f38-4b36-856c-df8f73dd38bc",
+            "TranspilerId": "cbd4068e-573f-48f4-bce8-e1fe6383ce1d",
+            "Name": "v1",
+            "CreatedOn": "2017-10-06T16:52:11.6",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "f2ae4577-9e04-4f10-b80d-7d61b4f33739",
+      "Name": "XlsxToCSVs",
+      "RelativePath": "/SassyMQ/LexiconCSVs",
+      "CommandLine": "xlsx-to-csvs -i ..\\..\\SSoT\\ProjectLexicon.xlsx -p overwrite=true"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "6aed1b2a-37ca-40dc-b344-5f35df178d84",
+        "Name": "CsvToSmql",
+        "DisplayName": "Csv To Smql",
+        "Description": "Converts a local CSV file into an SMQL file.",
+        "CreatedOn": "2017-09-15T22:12:36.46",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-BRj-C9iG4wpr1EWuUGYXlQ",
+        "LowerName": "csvtosmql",
+        "UpperName": "CSVTOSMQL",
+        "LowerHyphenName": "csv-to-smql",
+        "InputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
+        "OutputFileTypeId": "87c1c579-ea4f-47db-a064-f26f9ca1d91e",
+        "UsageCount": 71,
+        "Category": "sassymq",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "56b1ff1a-88a4-45de-92e7-026a8ffa4321",
+            "TranspilerId": "6aed1b2a-37ca-40dc-b344-5f35df178d84",
+            "Name": "v1",
+            "CreatedOn": "2017-09-15T22:12:42.74",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "817c7574-d643-44d5-8fa1-9f6a786631b7",
+      "Name": "CsvToSmql",
+      "RelativePath": "/SassyMQ",
+      "CommandLine": "sassymq/csv-to-smql -i .\\LexiconCSVs\\SassyMQLexicon.csv"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "69a746d2-c0b1-4467-a020-9dd12b8bc098",
+        "Name": "SmqlToDocs",
+        "DisplayName": "Smql To Docs",
+        "Description": "Converts an Smql file into documentation.",
+        "CreatedOn": "2017-09-16T22:24:50.93",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-SO2KYSw3nYNV1LPUOAPf8w",
+        "LowerName": "smqltodocs",
+        "UpperName": "SMQLTODOCS",
+        "LowerHyphenName": "smql-to-docs",
+        "ExampleMD": "ssotme sassymq/SmqlToDocs -i .\\HelloWorld.smql",
+        "InputFileTypeId": "87c1c579-ea4f-47db-a064-f26f9ca1d91e",
+        "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
+        "UsageCount": 155,
+        "Category": "sassymq",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "ea02027b-b8a4-4d73-ab46-c7d722c0cc38",
+            "TranspilerId": "69a746d2-c0b1-4467-a020-9dd12b8bc098",
+            "Name": "v1",
+            "CreatedOn": "2017-09-16T22:25:01.583",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "3249face-0994-46fd-a189-6ea68850fd00",
+      "Name": "SmqlToDocs",
+      "RelativePath": "/SassyMQ/Docs",
+      "CommandLine": "sassymq/smql-to-docs -i ..\\SassyMQLexicon.smql"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "87cacf89-e7f2-4a20-997d-8d9118488822",
+        "Name": "SmqlToTypeScriptRabbitMQ",
+        "DisplayName": "Smql To Type Script Rabbit M Q",
+        "Description": "Smql To TypeScript Rabbit MQ",
+        "CreatedOn": "2017-10-30T17:08:12.043",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-GIOqlF9-FQQJi12Dle6IxQ",
+        "LowerName": "smqltotypescriptrabbitmq",
+        "UpperName": "SMQLTOTYPESCRIPTRABBITMQ",
+        "LowerHyphenName": "smql-to-type-script-rabbit-m-q",
+        "ReadMeMD": ":param name=\"app-config-path\" select=\"'../../../app/app.config'\" \r\n:param name=\"app-state-path\" select=\"'../../../app/app.state'\" ",
+        "InputFileTypeId": "87c1c579-ea4f-47db-a064-f26f9ca1d91e",
+        "OutputFileTypeId": "f8391567-b3d9-4e34-8a45-3d6bd9da4b9b",
+        "UsageCount": 20,
+        "Category": "rabbitmq",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "958bfa9d-ea1d-4782-bc7a-435324a1dad7",
+            "TranspilerId": "87cacf89-e7f2-4a20-997d-8d9118488822",
+            "Name": "v1",
+            "CreatedOn": "2017-10-30T17:08:14.043",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "9d5a8dd9-2c83-493d-90f1-57c1d0d58ebe",
+      "Name": "SmqlToTypeScriptRabbitMQ",
+      "RelativePath": "/ionic2-ts-sidemenu1/src/providers/sassymq",
+      "CommandLine": "sassymq/smql-to-typescript -i ..\\..\\..\\..\\SassyMQ\\SassyMQLexicon.smql -p app-config-path=../../app/app.config  -p app-state-path=../../app/app.state"
     },
     {
       "MatchedTranspiler": null,
@@ -546,7 +739,7 @@
         "ExampleMD": "ssotme -createDocs",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "UsageCount": 560,
+        "UsageCount": 660,
         "Category": "ssotme",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -585,7 +778,7 @@
         "ReadMeMD": "This system tool turns a detailed SPXml file into detailed Html Documentation about how the SSoT.me project is organized. Specifically, how does the tech \"flow\" thorugh the project. ",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
-        "UsageCount": 513,
+        "UsageCount": 613,
         "Category": "ssotme",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -610,34 +803,29 @@
     },
     {
       "MatchedTranspiler": {
-        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
-        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
-        "Name": "XmlXsltTransform",
-        "DisplayName": "Xml Xslt Transform",
-        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset.",
-        "CreatedOn": "2017-08-30T15:45:09.907",
+        "TranspilerId": "9b86e4ae-d540-4766-8ad6-fb3893290a4f",
+        "Name": "SmqlToRabbitMQConfig",
+        "DisplayName": "Smql To Rabbit M Q Config",
+        "Description": "Creates a script which will configure rabbit with the correct Exchanges, Queues, Routes, etc, given an Smql file.",
+        "CreatedOn": "2017-09-18T14:24:34.077",
         "IsActive": true,
-        "CurrentRoutingKey": "amq.gen-pwRUdyqwEq8fPN8gkK7ADg",
-        "LowerName": "xmlxslttransform",
-        "UpperName": "XMLXSLTTRANSFORM",
-        "LowerHyphenName": "xml-xslt-transform",
-        "ReadMeMD": "The tool processes the first text file it finds (which is presumed to be in xml format), with the first Xslt file provided, and includes any parameters that are passed to ssotme as well.\r\n\r\nThe output is expected to be a FileSet Xml blob with the results of the transform.",
-        "InputDescriptionMD": "At least 1 input Xml file, An Xslt file to use for the Transform operation and any additional parameters that the Xslt file uses for it's transpiling functionality.  These could be options, values, namespaces, etc.",
-        "OutputDescriptionMD": "A fileset with the result of the Xslt transform, usually including at least 1 or more files.  The example command might produce an HTML Document that describes (in english) the contents of the Xml file.  Essentially a \"report\" about the xml file. ",
-        "ExampleMD": "ssotme -install xml-xslt-transform -i MyData.xml -i CreateDocs.xslt",
-        "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "OutputFileTypeId": "952e47eb-3448-4627-8dc4-93dab494c957",
-        "UsageCount": 5035,
-        "Category": "type-conversion",
+        "CurrentRoutingKey": "amq.gen-WxioEA3FsR1naAP64GFeiQ",
+        "LowerName": "smqltorabbitmqconfig",
+        "UpperName": "SMQLTORABBITMQCONFIG",
+        "LowerHyphenName": "smql-to-rabbit-m-q-config",
+        "InputFileTypeId": "87c1c579-ea4f-47db-a064-f26f9ca1d91e",
+        "OutputFileTypeId": "c131c623-c204-4f34-b98f-d326bba5042a",
+        "UsageCount": 73,
+        "Category": "rabbitmq",
         "IsRecommended": true,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
           {
-            "TranspilerVersionId": "7e941388-752b-4b0f-9631-939b790be10f",
-            "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+            "TranspilerVersionId": "e9603743-148c-43b9-82ba-761a32de6045",
+            "TranspilerId": "9b86e4ae-d540-4766-8ad6-fb3893290a4f",
             "Name": "v1",
-            "CreatedOn": "2017-08-30T15:45:10.653",
+            "CreatedOn": "2017-09-18T14:25:11.687",
             "IsActive": true,
             "TranspilerFileTypeId_TranspilerInputHints": [],
             "TranspilerInstances": [],
@@ -646,10 +834,92 @@
         ]
       },
       "CLIHandler": null,
-      "ProjectTranspilerId": "593a6196-803c-49d6-9732-b2ef074bdeb8",
-      "Name": "XmlXsltTransform",
-      "RelativePath": "/ionic2-ts-sidemenu1/src/providers",
-      "CommandLine": "xml-xslt-transform -i ..\\..\\..\\ODXML\\DataSchema.odxml -i CreateRestAPIService.xslt"
+      "ProjectTranspilerId": "9a6d919d-04f9-48d1-9ee8-c651becc4332",
+      "Name": "SmqlToRabbitMQConfig",
+      "RelativePath": "/SassyMQ/Config",
+      "CommandLine": "smql-to-rabbitmq-config -i ..\\SassyMQLexicon.smql"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "79d550e1-ce7f-4962-98c7-7e2856e226a3",
+        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
+        "Name": "ToUpperCase",
+        "DisplayName": "To Upper Case",
+        "Description": "Converts a file or string input into UPPERCASE letters.",
+        "CreatedOn": "2017-06-04T00:57:02.387",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-k31qK3x7A0nmMeeAKdWD_w",
+        "LowerName": "touppercase",
+        "UpperName": "TOUPPERCASE",
+        "LowerHyphenName": "to-upper-case",
+        "ReadMeMD": "Converts a string to upper case",
+        "InputDescriptionMD": "Text - either on the command line or something",
+        "OutputDescriptionMD": "THISISATEST",
+        "ExampleMD": "ssotme to-upper-case thisISaTEsT",
+        "InputFileTypeId": "6c58b9cb-e109-4273-a52b-c8a68f4009da",
+        "OutputFileTypeId": "6c58b9cb-e109-4273-a52b-c8a68f4009da",
+        "UsageCount": 189,
+        "Category": "test",
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "6c033292-92c6-4bcd-b208-8a77f08ebe92",
+            "TranspilerId": "79d550e1-ce7f-4962-98c7-7e2856e226a3",
+            "Name": "v1",
+            "CreatedOn": "2017-06-04T00:57:03.803",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "ad5a7c2e-efea-4ee9-88c9-1469fcc390ec",
+      "Name": "ToUpperCase",
+      "RelativePath": "/SassyMQ/Config",
+      "CommandLine": "-exec .\\UpdateSassyMQ.bat",
+      "IsDisabled": true
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "cf9074b7-4448-474a-adb6-cfffc0911e6c",
+        "Name": "SmqlToCSharpRabbitMQ",
+        "DisplayName": "Smql To C Sharp Rabbit M Q",
+        "Description": "Smql To CSharp RabbitMQ",
+        "CreatedOn": "2017-09-15T22:13:19.003",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-NIl_3Mw9hu0J9yChmk7KNw",
+        "LowerName": "smqltocsharprabbitmq",
+        "UpperName": "SMQLTOCSHARPRABBITMQ",
+        "LowerHyphenName": "smql-to-c-sharp-rabbit-m-q",
+        "ReadMeMD": "Parameters:\r\n - acronym = \"/SMQLexicon/Acronym\" \r\n - payload-type = concat($acronym, 'Payload')\r\n - actor-base-type = concat($acronym, 'ActorBase')\r\n",
+        "InputFileTypeId": "87c1c579-ea4f-47db-a064-f26f9ca1d91e",
+        "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
+        "UsageCount": 146,
+        "Category": "rabbitmq",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "b189ce7b-4086-4575-b89d-aafcbe02bba9",
+            "TranspilerId": "cf9074b7-4448-474a-adb6-cfffc0911e6c",
+            "Name": "v1",
+            "CreatedOn": "2017-09-15T22:13:25.117",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "2ca700b0-4016-4b0d-83f4-8c6d62897975",
+      "Name": "SmqlToCSharpRabbitMQ",
+      "RelativePath": "/CoreLibrary/SassyMQ",
+      "CommandLine": "sassymq/smql-to-csharp-rabbit -i ..\\..\\SassyMQ\\SassyMQLexicon.smql"
     }
   ]
 }

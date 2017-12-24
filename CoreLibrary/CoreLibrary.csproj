@@ -30,12 +30,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Diagnostics.Tracing.EventSource, Version=1.1.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.28\lib\net46\Microsoft.Diagnostics.Tracing.EventSource.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RabbitMQ.Client, Version=5.0.0.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
+      <HintPath>..\packages\RabbitMQ.Client.5.0.1\lib\net451\RabbitMQ.Client.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +53,27 @@
   <ItemGroup>
     <Compile Include="Extensions\CoreExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SassyMQ\Derived\DMProxy.cs" />
+    <Compile Include="SassyMQ\Derived\Extentions.cs" />
+    <Compile Include="SassyMQ\Derived\InvokeEventArgs.cs" />
+    <Compile Include="SassyMQ\Derived\LexiconTerm.cs" />
+    <Compile Include="SassyMQ\Derived\PayloadEventArgs.cs" />
+    <Compile Include="SassyMQ\Derived\SMQActorBase.cs" />
+    <Compile Include="SassyMQ\Derived\StandardPayload.cs" />
+    <Compile Include="SassyMQ\LexiconEnum.cs" />
+    <Compile Include="SassyMQ\LexiconTerms.cs" />
+    <Compile Include="SassyMQ\LexiconTerms.designer.cs">
+      <DependentUpon>LexiconTerms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SassyMQ\MSSMQSPayload.cs" />
+    <Compile Include="SassyMQ\RMQActors\SMQProgrammer.cs" />
+    <Compile Include="SassyMQ\RMQActors\SMQProgrammer.designer.cs">
+      <DependentUpon>SMQProgrammer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SassyMQ\RMQActors\SMQWorld.cs" />
+    <Compile Include="SassyMQ\RMQActors\SMQWorld.designer.cs">
+      <DependentUpon>SMQWorld.cs</DependentUpon>
+    </Compile>
     <Compile Include="SqlDataAccessLayer\SqlDataManager.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Compile Include="SassyMQ\MSSMQSActorBase.cs" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
