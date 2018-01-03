@@ -65,7 +65,6 @@
     <Compile Include="SassyMQ\LexiconTerms.designer.cs">
       <DependentUpon>LexiconTerms.cs</DependentUpon>
     </Compile>
-    <Compile Include="SassyMQ\MSSMQSPayload.cs" />
     <Compile Include="SassyMQ\RMQActors\SMQProgrammer.cs" />
     <Compile Include="SassyMQ\RMQActors\SMQProgrammer.designer.cs">
       <DependentUpon>SMQProgrammer.cs</DependentUpon>
@@ -81,7 +80,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Compile Include="SassyMQ\MSSMQSActorBase.cs" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
