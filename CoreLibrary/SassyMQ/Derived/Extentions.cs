@@ -78,3 +78,8 @@ namespace SassyMQ.Lib.RabbitMQ
         }
     }
 }
+
+namespace CoreLibrary.SassyMQ
+{
+    public class PHClass { }
+}   
